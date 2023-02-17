@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch PilaStack",
+      "request": "launch",
+      "mainClass": "PilaStack",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch InicArreglo5",
+      "request": "launch",
+      "mainClass": "InicArreglo5",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch InicArreglo4",
+      "request": "launch",
+      "mainClass": "InicArreglo4",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/c/algoritmos/bin/Debug/net7.0/algoritmos.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/c/algoritmos",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}

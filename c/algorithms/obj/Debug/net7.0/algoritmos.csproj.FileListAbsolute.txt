@@ -1,0 +1,15 @@
+C:\Users\micha\Documents\Git-U\c\algoritmos\bin\Debug\net7.0\algoritmos.exe
+C:\Users\micha\Documents\Git-U\c\algoritmos\bin\Debug\net7.0\algoritmos.deps.json
+C:\Users\micha\Documents\Git-U\c\algoritmos\bin\Debug\net7.0\algoritmos.runtimeconfig.json
+C:\Users\micha\Documents\Git-U\c\algoritmos\bin\Debug\net7.0\algoritmos.dll
+C:\Users\micha\Documents\Git-U\c\algoritmos\bin\Debug\net7.0\algoritmos.pdb
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.AssemblyInfoInputs.cache
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.AssemblyInfo.cs
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.dll
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\refint\algoritmos.dll
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.pdb
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\algoritmos.genruntimeconfig.cache
+C:\Users\micha\Documents\Git-U\c\algoritmos\obj\Debug\net7.0\ref\algoritmos.dll

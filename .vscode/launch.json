@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch EjercicioCola02",
+      "request": "launch",
+      "mainClass": "EjercicioCola02",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch EjercicioCola",
+      "request": "launch",
+      "mainClass": "EjercicioCola",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
       "name": "Launch Taller01",
       "request": "launch",
       "mainClass": "Taller01",

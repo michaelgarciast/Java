@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TallerEjemplo",
+      "request": "launch",
+      "mainClass": "TallerEjemplo",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
       "name": "Launch TallerUnoEjercicio01",
       "request": "launch",
       "mainClass": "TallerUnoEjercicio01",

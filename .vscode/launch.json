@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TallerUnoEjercicio01",
+      "request": "launch",
+      "mainClass": "TallerUnoEjercicio01",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch TallerDosEjercicio02",
+      "request": "launch",
+      "mainClass": "TallerDosEjercicio02",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch TallerDosEjercicio01",
+      "request": "launch",
+      "mainClass": "TallerDosEjercicio01",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch TallerUnoEjercicio02",
+      "request": "launch",
+      "mainClass": "TallerUnoEjercicio02",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
+      "name": "Launch TallerPunto2",
+      "request": "launch",
+      "mainClass": "TallerPunto2",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
       "name": "Launch EjercicioCola02",
       "request": "launch",
       "mainClass": "EjercicioCola02",

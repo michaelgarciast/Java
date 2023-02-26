@@ -1,6 +1,6 @@
 //Librerias
 import java.util.*;
-public class TallerEjemplo {
+public class TallerUnoEjercicio02 {
 
     private Scanner teclado;
     private float[] altura;
@@ -37,7 +37,7 @@ public class TallerEjemplo {
         System.out.println("Hay " + menores + " empleados más bajos que el promedio");
     }
     public static void main(String args[]) {
-        TallerEjemplo vector = new TallerEjemplo();
+        TallerUnoEjercicio02 vector = new TallerUnoEjercicio02();
         vector.dataEmpleados();
         vector.promedio();
         vector.calcular();

@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.Vector;
 public class TallerUnoEjercicio01 {
         private Scanner teclado;
-        private int cantOperarios = 5;
+        private int cantOperarios = 15;
 
         public void sueldosOperarios() {
             // Crear la pila

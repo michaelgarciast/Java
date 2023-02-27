@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TallerDosEjercicio02",
+      "request": "launch",
+      "mainClass": "TallerDosEjercicio02",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "Launch TallerDosEjercicio01",
       "request": "launch",
       "mainClass": "TallerDosEjercicio01",

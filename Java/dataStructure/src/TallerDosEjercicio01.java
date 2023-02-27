@@ -31,8 +31,6 @@ public class TallerDosEjercicio01 {
     public static void main(String args[]) {
         TallerDosEjercicio01 vector = new TallerDosEjercicio01();
         vector.cantSueldos();
-            
-            
-            
+        
         }
     }

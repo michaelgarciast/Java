@@ -1,7 +1,5 @@
-
-
 //Librerias
-import java.util.Scanner;
+import java.util.*;
 
 public class TallerOrdenamiento {
     private Scanner teclado;

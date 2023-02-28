@@ -3,8 +3,7 @@
 //ingresar n por teclado. Luego imprimir la suma de todos sus elementos.
 
 //Librerias
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class TallerDosEjercicio02 {
     private Scanner teclado;

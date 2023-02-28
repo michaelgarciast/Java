@@ -3,8 +3,7 @@
 //Realizar una pila tipo vector para acceder a cada elemento por medio del índice
 
 //Librerias
-import java.util.Scanner;
-import java.util.Vector;
+import java.util.*;
 public class TallerUnoEjercicio01 {
         private Scanner teclado;
         private int cantOperarios = 15;

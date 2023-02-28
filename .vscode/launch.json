@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TallerOrdenamiento",
+      "request": "launch",
+      "mainClass": "Java.dataStructure.TallerOrdenamiento",
+      "projectName": "Git-U_f36be595"
+    },
+    {
+      "type": "java",
       "name": "Launch TallerDosEjercicio02",
       "request": "launch",
       "mainClass": "TallerDosEjercicio02",

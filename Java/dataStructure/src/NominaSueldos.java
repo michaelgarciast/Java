@@ -18,6 +18,7 @@ public class NominaSueldos {
         
     }
     public void ordenar() {
+        // Ordenar vector de menor a mayor
         for(int k = 0; k < nomina.length; k++){
             for(int j = 0; j < nomina.length -1; j++){
                 if(nomina[j] > nomina[j+1]){
@@ -31,6 +32,7 @@ public class NominaSueldos {
         }
     }
     public void imprimir() {
+        //Imprimir vector de sueldos
         System.out.println("Vector de sueldos ordenado de menor a mayor:");
         for (int i = 0; i < nomina.length; i++) {
             System.out.println(nomina[i]);
@@ -39,6 +41,7 @@ public class NominaSueldos {
     
     public static void main(String args[]) {
         NominaSueldos vector = new NominaSueldos();
+        //Inicializar funciones
         vector.sueldos();
         vector.ordenar();
         vector.imprimir();

@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ListAlumnosNotas",
+      "request": "launch",
+      "mainClass": "ListAlumnosNotas",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "TallerOrdenar02",
+      "request": "launch",
+      "mainClass": "TallerOrdenar02",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "NominaSueldos",
+      "request": "launch",
+      "mainClass": "NominaSueldos",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "VectorPaises",
+      "request": "launch",
+      "mainClass": "VectorPaises",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "Launch TallerOrdenar02",
       "request": "launch",
       "mainClass": "TallerOrdenar02",

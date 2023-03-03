@@ -39,7 +39,7 @@ public class TallerOrdenar02{
     public void imprimir() {
         System.out.println("Este es el resultado del ordenamiento:  ");
         for(int i = 0; i < numero.length; i++){
-            System.out.println(nombre[i] + " " + numero[i] );
+            System.out.println(nombre[i] + "  " + numero[i] );
         }
     }
     

@@ -18,18 +18,19 @@ public class NominaSueldos {
         
     }
     public void ordenar() {
-        // Ordenar vector de menor a mayor
-        for(int k = 0; k < nomina.length; k++){
-            for(int j = 0; j < nomina.length -1; j++){
-                if(nomina[j] > nomina[j+1]){
-                    Double auxNomina = nomina[j];
-                    nomina[j] = nomina[j+1];
-                    nomina[j+1] = auxNomina;
+        // // Ordenar vector de menor a mayor
+        // for(int k = 0; k < nomina.length; k++){
+        //     for(int j = 0; j < nomina.length -1; j++){
+        //         if(nomina[j] > nomina[j+1]){
+        //             Double auxNomina = nomina[j];
+        //             nomina[j] = nomina[j+1];
+        //             nomina[j+1] = auxNomina;
+        //         }
 
-                }
-
-            }
-        }
+        //     }
+        // }
+        //Ordenar paises
+        Arrays.sort(nomina);
     }
     public void imprimir() {
         //Imprimir vector de sueldos

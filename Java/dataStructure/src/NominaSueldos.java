@@ -1,3 +1,9 @@
+//Taller #3 
+//Ejercicio #1 
+//Realice un programa en java donde se crea un vector de nómina para almacenar 10 sueldos. 
+//Ordenar el vector nómina de menor a mayor.
+
+
 //Librerias
 import java.util.*;
 
@@ -12,25 +18,23 @@ public class NominaSueldos {
         nomina = new double[cantSueldos];
         // Llenar vector con sueldos
         for (int i = 0; i < nomina.length; i++) {
-            System.out.print("Ingrese el sueldo " + (i+1) + ": ");
+            System.out.print("Ingrese el sueldo # " + (i+1) + ": ");
             nomina[i] = teclado.nextDouble();
         }
         
     }
     public void ordenar() {
-        // // Ordenar vector de menor a mayor
-        // for(int k = 0; k < nomina.length; k++){
-        //     for(int j = 0; j < nomina.length -1; j++){
-        //         if(nomina[j] > nomina[j+1]){
-        //             Double auxNomina = nomina[j];
-        //             nomina[j] = nomina[j+1];
-        //             nomina[j+1] = auxNomina;
-        //         }
+        // Ordenar vector de menor a mayor
+        for(int k = 0; k < nomina.length; k++){
+            for(int j = 0; j < nomina.length -1; j++){
+                if(nomina[j] > nomina[j+1]){
+                    Double auxNomina = nomina[j];
+                    nomina[j] = nomina[j+1];
+                    nomina[j+1] = auxNomina;
+                }
 
-        //     }
-        // }
-        //Ordenar paises
-        Arrays.sort(nomina);
+            }
+        }
     }
     public void imprimir() {
         //Imprimir vector de sueldos

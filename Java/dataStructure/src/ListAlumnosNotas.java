@@ -1,4 +1,5 @@
-// Taller #4
+//Taller #4
+//Ejercicio #1
 //Realizar un programa en java que permita cargar los nombres de 5 alumnos y sus notas respectivas. 
 //Luego ordenar las notas de mayor a menor. Imprimir las notas y los nombres de los alumnos.
 
@@ -18,15 +19,17 @@ public class ListAlumnosNotas {
         nombres = new String[cantNombresAlumnos];
         notas = new float[cantNotas];
         System.out.println("Ingrese el nombre del alumno y su nota");
+        // Llenar vector con alumnos (nombres, notas)
         for(int i = 0; i < nombres.length; i++){
-            System.out.println("Digite el nombre del alumno " + (i+1) + ": ");
+            System.out.println("Digite el nombre del alumno # " + (i+1) + ": ");
             nombres[i] = teclado.next();
-            System.out.println("Digite la nota del alumno " + (i+1) + ": ");
+            System.out.println("Digite la nota del alumno # " + (i+1) + ": ");
             notas[i] = teclado.nextFloat();
         }
     }
 
-    public void ordenarNotas() {
+    public void ordenarNotasyNombres() {
+        // Ordenar vector de notas menor a mayor
         for(int k = 0; k < notas.length; k++){
             for(int j = 0; j < notas.length -1; j++){
                 if(notas[j] > notas[j+1]){
@@ -43,7 +46,8 @@ public class ListAlumnosNotas {
         }
     }
 
-    public void imprimirNotas() {
+    public void imprimirNotasyNombres() {
+        //Imprimir vector de notas y nombre del alumno
         System.out.println("Vector de notas ordenado de menor a mayor: ");
         for(int i = 0; i < notas.length; i++){
             System.out.println( "La nota " + notas[i] + " Corresponde al alumno: " + nombres[i]);
@@ -52,8 +56,9 @@ public class ListAlumnosNotas {
 
     public static void main(String args[]) {
         ListAlumnosNotas vector = new ListAlumnosNotas();
+        //Inicializar funciones
         vector.cargarNotasynombres();
-        vector.ordenarNotas();
-        vector.imprimirNotas();
+        vector.ordenarNotasyNombres();
+        vector.imprimirNotasyNombres();
     }
 }

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CalculadoraAlgoritmos",
+      "request": "launch",
+      "mainClass": "CalculadoraAlgoritmos",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
       "name": "ListAlumnosNotas",
       "request": "launch",
       "mainClass": "ListAlumnosNotas",

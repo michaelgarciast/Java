@@ -1,5 +1,5 @@
 //Librerias
-import java.util.Arrays;
+import java.util.*;
 
 public class ArrayMezcla{
     public static void main(String args[]){

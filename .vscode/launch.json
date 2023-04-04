@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OrdenamientoPuntoDos",
+      "request": "launch",
+      "mainClass": "OrdenamientoPuntoDos",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "Ordenamiento",
+      "request": "launch",
+      "mainClass": "Ordenamiento",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "OrdenamientoDeNombres",
+      "request": "launch",
+      "mainClass": "OrdenamientoDeNombres",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "CalculadoraAlgoritmos",
       "request": "launch",
       "mainClass": "CalculadoraAlgoritmos",

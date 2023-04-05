@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OrdenarNumeros",
+      "request": "launch",
+      "mainClass": "OrdenarNumeros",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "MezclaNumeros",
+      "request": "launch",
+      "mainClass": "MezclaNumeros",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "AlumnosBogota",
+      "request": "launch",
+      "mainClass": "AlumnosBogota",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "OrdenamientoPuntoDos",
       "request": "launch",
       "mainClass": "OrdenamientoPuntoDos",

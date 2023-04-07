@@ -2,10 +2,11 @@
 import java.util.*;
 
 public class OrdenamientoDeNombres {
+    //Inicialización variable
     private static Scanner teclado;
     public static void main(String[] args) {
-        //Inicializar Variables
-        int cantUser = 5;
+        //Inicializar Variables local
+        int cantUser = 20; //Cantidad de posiciones
         String[] nombreUser;
         // Nombres de usuarios
         nombreUser = new String[cantUser];
@@ -35,15 +36,9 @@ public class OrdenamientoDeNombres {
             incremento /= 2;
         }
 
-        // Vector ordenado
+        // Imprimir vector ordenado
         System.out.println("Vector ordenado: " + Arrays.toString(nombreUser));
         
     }
     
 }
-
-
-
-
-
-

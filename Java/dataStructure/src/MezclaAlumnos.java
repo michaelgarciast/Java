@@ -16,10 +16,10 @@ public class MezclaAlumnos {
             nombres[i] = teclado.next();
         }
         //Lista original de alumnos
-        System.out.println("Lista de alumnos original:");
+        System.out.println("Lista de alumnos original: ");
         imprimirNombres(nombres);
         //Lista de alumnos ordenada
-        System.out.println("Lista de alumnos ordenada:");
+        System.out.println("Lista de alumnos ordenada: ");
         ordenacionMergeSort(nombres);
         imprimirNombres(nombres);
     }
@@ -63,8 +63,6 @@ public class MezclaAlumnos {
     }
     // Funcion para imprimir Nombres
     public static void imprimirNombres(String[] nombres) {
-        for (String nombre : nombres) {
-            System.out.println(nombre);
-        }
+        System.out.println(Arrays.toString(nombres));
     }
 }

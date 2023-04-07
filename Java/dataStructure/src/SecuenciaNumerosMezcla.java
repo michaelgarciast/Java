@@ -1,15 +1,17 @@
 //Librerias
 import java.util.*;
 
-public class ArrayMezcla{
+public class SecuenciaNumerosMezcla {
+    //inicializa un arreglo de enteros llamado vector
     public static void main(String args[]){
-        int vector [] = {5,6,4,2,3,1,7,8,9};
-        System.out.println("Vector original");
+        int vector [] = {21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40};
+        System.out.println("Vector original: ");
         imprimirVector(vector);
-        System.out.println("El vector ordenado");
+        System.out.println("El vector ordenado: ");
         OrdenacionMergeSort(vector);
         imprimirVector(vector);
     }
+    //ordenar el vector e imprime en consola el vector ya ordenado.
     public static void OrdenacionMergeSort(int vector[]) {
         if(vector.length <= 1)
         return;
@@ -22,6 +24,7 @@ public class ArrayMezcla{
             CombinarVector(vector, izq, der);
         }
     }
+    //Combinar dos subvectores ordenados en un único vector ordenado
     public static void CombinarVector(int v[], int izq[], int der[]) {
             int i = 0;
             int j = 0;
@@ -45,9 +48,8 @@ public class ArrayMezcla{
                 }
             }
         }
+    //Imprimir un vector en consola
     public static void imprimirVector(int vector[]) {
-        for(int i = 0; i<vector.length; i++){
-            System.out.println(vector[i] + "");
-        }
+        System.out.println(Arrays.toString(vector));
     }
 }

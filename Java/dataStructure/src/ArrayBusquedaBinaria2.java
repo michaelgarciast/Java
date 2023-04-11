@@ -7,7 +7,7 @@ public class ArrayBusquedaBinaria2 {
             if(vector[centro] == dato){
                 return centro;
             }else if(dato < vector[centro]){
-                sup = centro -1;
+                sup = centro +1;
 
             }else{
                 inf = centro-1;

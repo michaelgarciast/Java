@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayBusquedaBinaria2",
+      "request": "launch",
+      "mainClass": "ArrayBusquedaBinaria2",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "ArrayBusquedaBinaria",
+      "request": "launch",
+      "mainClass": "ArrayBusquedaBinaria",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
       "name": "SecuenciaNumerosMezcla",
       "request": "launch",
       "mainClass": "SecuenciaNumerosMezcla",

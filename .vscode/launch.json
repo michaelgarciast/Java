@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CalificacionesEstudiante",
+      "request": "launch",
+      "mainClass": "CalificacionesEstudiante",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "BusquedaSecuencial2",
       "request": "launch",
       "mainClass": "BusquedaSecuencial2",

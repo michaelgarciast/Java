@@ -2,10 +2,6 @@
 import java.util.Scanner;
 
 public class InicArreglo4 {
-    /**
-     * @param args
-     * @throws Exception
-     */
     public static void main(String[] args) throws Exception {
         try (Scanner teclado = new Scanner(System.in)) {
             System.out.println("Inserte la longitud del arreglo: ");

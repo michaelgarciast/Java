@@ -5,9 +5,9 @@ public class CalculadoraAlgoritmos {
 
     // Declaracion de variables
     private Scanner teclado;
-    private int number1;
-    private int number2;
-    private int resultOperation = 0;
+    private double number1;
+    private double number2;
+    private double resultOperation = 0;
     private char operation;
 
     // Carga datos o numeros de la operación
@@ -37,7 +37,7 @@ public class CalculadoraAlgoritmos {
                 resultOperation = number1 * number2;
                 break;
             case '/':   
-                resultOperation = number1 / number2;
+                resultOperation =   number1 / number2;
                 break;
             default:
             // Error en la validación

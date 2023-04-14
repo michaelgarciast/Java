@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BusquedaSecuencial2",
+      "request": "launch",
+      "mainClass": "BusquedaSecuencial2",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaSecuencial",
+      "request": "launch",
+      "mainClass": "BusquedaSecuencial",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
       "name": "ArrayBusquedaBinaria2",
       "request": "launch",
       "mainClass": "ArrayBusquedaBinaria2",

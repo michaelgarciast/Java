@@ -6,15 +6,22 @@ public class CalificacionesEstudiante {
     private Scanner teclado;
     private String nombreEstudiante;
     private String carreraUniversitaria;
+
     // Variables notas
     private static double[] notas;
     private double[] notasSociales;
     private double[] notasEspanol;
     private double[] notasIngles;
 
+    //Varibles promedio y resultado materias
     private String resultadoSociales;
     private String resultadoEspanol;
     private String resultadoIngles;
+    
+    private double promedioSociales;
+    private double promedioEspanol;
+    private double promedioIngles;
+
 
     // Función para ingresar datos estudiante y notas
     public void ingresarDatos() {
@@ -32,13 +39,13 @@ public class CalificacionesEstudiante {
         notasIngles = ingresarNotas("Inglés", teclado);
 
         // Cálculo de promedio y resultado por asignatura
-        double promedioSociales = calcularPromedio(notasSociales);
+        promedioSociales = calcularPromedio(notasSociales);
         resultadoSociales = obtenerResultado(promedioSociales);
 
-        double promedioEspanol = calcularPromedio(notasEspanol);
+        promedioEspanol = calcularPromedio(notasEspanol);
         resultadoEspanol = obtenerResultado(promedioEspanol);
 
-        double promedioIngles = calcularPromedio(notasIngles);
+        promedioIngles = calcularPromedio(notasIngles);
         resultadoIngles = obtenerResultado(promedioIngles);
     }
 
@@ -47,7 +54,7 @@ public class CalificacionesEstudiante {
         System.out.println("Ingrese las notas de " + asignatura + ":");
         notas = new double[4];
         for (int i = 0; i < 4; i++) {
-            System.out.print("Ingrese la nota del período " + (i + 1) + ": ");
+            System.out.print("Ingrese la nota del corte # " + (i + 1) + ": ");
             notas[i] = teclado.nextDouble();
         }
         return notas;
@@ -76,11 +83,10 @@ public class CalificacionesEstudiante {
     public void imprimirDatos() {
         System.out.println("Nombre del estudiante: " + nombreEstudiante);
         System.out.println("Carrera del estudiante: " + carreraUniversitaria);
-        System.out.println("Asignatura Sociales: " + resultadoSociales);
-        System.out.println("Asignatura Español: " + resultadoEspanol);
-        System.out.println("Asignatura Inglés: " + resultadoIngles);
+        System.out.println("El estudiante fue " + resultadoSociales + " en la asignatura de Sociales con un promedio de: " +  Math.round(promedioSociales * 100.0)/100.0);
+        System.out.println("El estudiante fue " + resultadoEspanol + " en la asignatura de Español con un promedio de: " +  Math.round(promedioEspanol * 100.0)/100.0);
+        System.out.println("El estudiante fue " + resultadoIngles + " en la asignatura de Ingles con un promedio de: " +  Math.round(promedioIngles * 100.0)/100.0);
     }
-
     //Inicializacion de funciones
     public static void main(String[] args) {
         CalificacionesEstudiante vector = new CalificacionesEstudiante();

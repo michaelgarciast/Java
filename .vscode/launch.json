@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BusquedaEstudiantes",
+      "request": "launch",
+      "mainClass": "BusquedaEstudiantes",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaSecuencial",
+      "request": "launch",
+      "mainClass": "BusquedaSecuencial",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "CalificacionesEstudiante",
       "request": "launch",
       "mainClass": "CalificacionesEstudiante",

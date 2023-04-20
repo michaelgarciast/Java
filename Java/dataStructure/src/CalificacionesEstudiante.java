@@ -83,9 +83,9 @@ public class CalificacionesEstudiante {
     public void imprimirDatos() {
         System.out.println("Nombre del estudiante: " + nombreEstudiante);
         System.out.println("Carrera del estudiante: " + carreraUniversitaria);
-        System.out.println("El estudiante fue " + resultadoSociales + " en la asignatura de Sociales con un promedio de: " +  Math.round(promedioSociales * 100.0)/100.0);
-        System.out.println("El estudiante fue " + resultadoEspanol + " en la asignatura de Español con un promedio de: " +  Math.round(promedioEspanol * 100.0)/100.0);
-        System.out.println("El estudiante fue " + resultadoIngles + " en la asignatura de Ingles con un promedio de: " +  Math.round(promedioIngles * 100.0)/100.0);
+        System.out.println("El estudiante fue " + resultadoSociales + " en la asignatura de Sociales con un promedio de: " +  Math.floor(promedioSociales));
+        System.out.println("El estudiante fue " + resultadoEspanol + " en la asignatura de Español con un promedio de: " +  Math.floor(promedioEspanol));
+        System.out.println("El estudiante fue " + resultadoIngles + " en la asignatura de Ingles con un promedio de: " +  Math.floor(promedioIngles));
     }
     //Inicializacion de funciones
     public static void main(String[] args) {

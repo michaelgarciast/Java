@@ -1,46 +1,52 @@
 //Librerias
-import javax.swing.*;
 import java.util.*;
-
 public class BusquedaEstudiantes {
-    public static void main(String[] args) {
-        //Arreglo lista de estudiantes
-        String nombres[] = {"Marlon Ubeimar", "Jose Manuel", "Daniel Alexander", "Jeisson Fabian", "Martin Alejandro", "Deiby Andres", "Luis Jonnathan", "David Santiago", "Martin", 
-        "Michael Steven", "Yeraldin", "Mateo", "Juan Sebastian Camilo", "Jose Sebastian", "Cristian Mateo", "Kevin Steven", "Karen Juliana", "Jhoan David", "Albeiro De Jesus", "Marlon David"};
-        String nombreBuscado;
-        boolean encontrado = false;
-        int posicion = -1;
 
-        // Ordenamos el arreglo de nombres alfabéticamente
-        Arrays.sort(nombres);
+    //Inicializacion de varibles
+    private Scanner teclado;
+    private String estudianteBuscado;
+    private int indice;
 
-        // Solicitamos el nombre a buscar
-        nombreBuscado = JOptionPane.showInputDialog("Digite el nombre a buscar: ");
+    // Arreglo de estudiantes
+    String[] estudiantes = {"Albeiro De Jesus", "Cristian Mateo", "Daniel Alexander", "David Santiago", "Deiby Andres", 
+    "Jeisson Fabian", "Jhoan David", "Jose Manuel", "Jose Sebastian", "Juan Sebastian Camilo", 
+    "Karen Juliana", "Kevin Steven", "Luis Jonnathan", "Marlon", "Marlon David", 
+    "Martin", "Martin Alejandro", "Mateo", "Michael Steven", "Yeraldin"};
 
-        // Realizamos la búsqueda binaria
-        int inicio = 0;
-        int fin = nombres.length - 1;
-        int medio;
-        while (inicio <= fin) {
-            medio = (inicio + fin) / 2;
-            int comparacion = nombres[medio].compareTo(nombreBuscado);
-            if (comparacion == 0) {
-                encontrado = true;
-                posicion = medio;
-                break;
-            } else if (comparacion < 0) {
-                inicio = medio + 1;
+    public void ordenarArray() {
+        // Ordenar el arreglo de estudiantes en orden alfabético
+        Arrays.sort(estudiantes);
+        
+        // Scanner para leer la entrada del usuario
+        teclado = new Scanner(System.in);
+        
+        // Pedimos al usuario el nombre del estudiante a buscar
+        System.out.print("Ingrese el nombre del estudiante a buscar: ");
+        estudianteBuscado = teclado.nextLine();
+    }
+    public void busquedaDeEsudiante() {
+        // Búsqueda binaria
+        indice = Arrays.binarySearch(estudiantes, estudianteBuscado);
+        
+        if (indice >= 0) {
+            // Si encontramos al estudiante, mostramos al siguiente estudiante
+            int siguienteIndice = indice + 1;
+            if (siguienteIndice < estudiantes.length) {
+                System.out.println("El siguiente estudiante es: " + estudiantes[siguienteIndice]);
             } else {
-                fin = medio - 1;
+                System.out.println("No hay más estudiantes después de " + estudianteBuscado);
             }
-        }
-
-        // Mostramos el resultado de la búsqueda
-        if (encontrado) {
-            JOptionPane.showMessageDialog(null, "El estudiante " + nombreBuscado +  " fue encontrado " + "en la posición " + posicion + " del arreglo.");
         } else {
-            JOptionPane.showMessageDialog(null, "El estudiante " + nombreBuscado + " no se encuentra en la lista.");
+            // Si no encontramos al estudiante, mostramos un mensaje de error
+            System.out.println("No se encontró al estudiante " + estudianteBuscado);
         }
     }
-    
+
+    //Inicialización de funciones
+    public static void main(String[] args) {
+        BusquedaEstudiantes vector = new BusquedaEstudiantes();
+        vector.ordenarArray();
+        vector.busquedaDeEsudiante();
+        
+    }
 }

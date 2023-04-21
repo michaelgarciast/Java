@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BusquedaClave",
+      "request": "launch",
+      "mainClass": "BusquedaClave",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
       "name": "BusquedaSecuencialApellido",
       "request": "launch",
       "mainClass": "BusquedaSecuencialApellido",

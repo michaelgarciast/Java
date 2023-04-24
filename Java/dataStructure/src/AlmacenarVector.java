@@ -1,7 +1,7 @@
 //Librerias
 import java.util.*;
 
-public class Ordenamiento {
+public class AlmacenarVector {
     private static Scanner teclado;
     public static void main(String args[]) {
         teclado = new Scanner(System.in);

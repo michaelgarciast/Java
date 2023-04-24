@@ -3,6 +3,7 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
       "name": "Quiz",
       "request": "launch",
       "mainClass": "Quiz",
@@ -56,6 +57,40 @@
       "request": "launch",
       "mainClass": "QuizVector",
       "projectName": "University_3d9b82f3"
+=======
+      "name": "BusquedaClave",
+      "request": "launch",
+      "mainClass": "BusquedaClave",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaSecuencialApellido",
+      "request": "launch",
+      "mainClass": "BusquedaSecuencialApellido",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaEstudiantes",
+      "request": "launch",
+      "mainClass": "BusquedaEstudiantes",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaSecuencial",
+      "request": "launch",
+      "mainClass": "BusquedaSecuencial",
+      "projectName": "University_1e023f17"
+    },
+    {
+      "type": "java",
+      "name": "CalificacionesEstudiante",
+      "request": "launch",
+      "mainClass": "CalificacionesEstudiante",
+      "projectName": "University_1e023f17"
+>>>>>>> c93fc38731f6eb4b4c1e56fe2be82832d31ffbea
     },
     {
       "type": "java",

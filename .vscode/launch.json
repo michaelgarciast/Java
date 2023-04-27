@@ -3,6 +3,61 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
+      "name": "Quiz",
+      "request": "launch",
+      "mainClass": "Quiz",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "MatrizTeclado",
+      "request": "launch",
+      "mainClass": "MatrizTeclado",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "Matriz",
+      "request": "launch",
+      "mainClass": "Matriz",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "CalificacionesEstudiante",
+      "request": "launch",
+      "mainClass": "CalificacionesEstudiante",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "Ordenamiento",
+      "request": "launch",
+      "mainClass": "Ordenamiento",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "AlmacenarVector",
+      "request": "launch",
+      "mainClass": "AlmacenarVector",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "EjercicioCola02",
+      "request": "launch",
+      "mainClass": "EjercicioCola02",
+      "projectName": "University_3d9b82f3"
+    },
+    {
+      "type": "java",
+      "name": "QuizVector",
+      "request": "launch",
+      "mainClass": "QuizVector",
+      "projectName": "University_3d9b82f3"
+=======
       "name": "BusquedaClave",
       "request": "launch",
       "mainClass": "BusquedaClave",
@@ -35,6 +90,7 @@
       "request": "launch",
       "mainClass": "CalificacionesEstudiante",
       "projectName": "University_1e023f17"
+>>>>>>> c93fc38731f6eb4b4c1e56fe2be82832d31ffbea
     },
     {
       "type": "java",

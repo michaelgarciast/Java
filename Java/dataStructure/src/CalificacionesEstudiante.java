@@ -22,6 +22,9 @@ public class CalificacionesEstudiante {
     private double promedioEspanol;
     private double promedioIngles;
 
+    private boolean aprobadoEnTodo;
+    private double costoTotal = 4000000;
+
 
     // Función para ingresar datos estudiante y notas
     public void ingresarDatos() {
@@ -78,19 +81,34 @@ public class CalificacionesEstudiante {
             return "Error: El promedio está fuera de rango";
         }
     }
-    
+
+    public void descuentoAprovado() {
+        aprobadoEnTodo = resultadoSociales.equals("Aprobado") && resultadoEspanol.equals("Aprobado") && resultadoIngles.equals("Aprobado");
+        costoTotal = 4000000;
+        if (aprobadoEnTodo) {
+            double descuento = costoTotal * 0.1;
+            costoTotal -= descuento;
+            System.out.println("El estudiante tiene un descuento del 10% en el valor total de su matrícula.");
+        } else {
+            System.out.println("El estudiante no cumple con los requisitos para el descuento del 10% en el valor total de su matrícula.");
+        }
+    }
+
     // Función Impresión de los resultados asignatura
     public void imprimirDatos() {
+        
         System.out.println("Nombre del estudiante: " + nombreEstudiante);
         System.out.println("Carrera del estudiante: " + carreraUniversitaria);
         System.out.println("El estudiante fue " + resultadoSociales + " en la asignatura de Sociales con un promedio de: " +  Math.floor(promedioSociales));
         System.out.println("El estudiante fue " + resultadoEspanol + " en la asignatura de Español con un promedio de: " +  Math.floor(promedioEspanol));
         System.out.println("El estudiante fue " + resultadoIngles + " en la asignatura de Ingles con un promedio de: " +  Math.floor(promedioIngles));
+        System.out.println("El costo total de la matrícula es: $" + costoTotal);
     }
     //Inicializacion de funciones
     public static void main(String[] args) {
         CalificacionesEstudiante vector = new CalificacionesEstudiante();
         vector.ingresarDatos();
         vector.imprimirDatos();
+        vector.descuentoAprovado();
     }
 }

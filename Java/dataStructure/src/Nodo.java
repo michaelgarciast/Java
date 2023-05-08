@@ -1,6 +1,6 @@
 public class Nodo{
 
-    Object valor;
+    Object valor;//
     Nodo siguiente;
     public Nodo(Object valor) {
         this.valor = valor;
